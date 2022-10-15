@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <h1> Função Funciona? </h1>
+
+    <div class=" Exercicio">
+        <h2> Descubra a idade do seu pet em anos humanos</h2>
+        <form>
+            <label>Qual é a idade do seu cachorro ? <input type="number" id="idade"></label>
+            <input type="button" value="Calcular a idade do seu PET" onclick="IdadePetConversão()">
+        </form>
+        <div id="resposta">
+        </div>
+    </div>
+
+
+    <div class=" Exercicio">
+        <h2> Nome, Idade e Espécie do seu pet </h2>
+    <form>
+        <label>Qual é a idade do seu cachorro ? <input type="number" id="idade"></label>
+        <label>Qual é o nome do seu cachorro ? <input type="text" id="nome"></label>
+        <label>Qual a espécie ? <input type="text" id="especie"></label>
+        <input type="button" value="Calcular a idade do seu PET" onclick="IdadePetConversão2()">
+    </form>
+
+    <div id="resposta1">
+    </div>
+    </div>
+
+
+    <div class=" Exercicio">
+        <h2> Suprimento vitalicio </h2>
+        <form>
+            <label>Qual a sua idade?<input type="number" id="idade"></label>
+            <label>Qual a sua comida preferida? <input type="text" id="lanchinho"></label>
+            <label> Quantas vezes por dia voce comeria essa comida preferida? <input type="number" id="quantasvezes"></label>
+            <input type="button" value="Calcule " onclick="calcularMeuLanche()">
+        </form>
+    
+        <div id="resposta2">
+        </div>
+        </div>
+
+        
+    <div class=" Exercicio">
+        <h2> Qual o raio? </h2>
+        <form>
+            <h3>Calcule a circunferência</h3>
+            <label>Qual é o raio do circulo ? <input type="number" id="raio1"></label>
+            <input type="button" value="Calcular Circunferência" onclick="calcularCircunferencia()">
+        </form>
+    
+        <div id="resposta3">
+        </div>
+    
+        
+        <form>
+            <h3>Calcule a Área</h3>
+            <label>Qual é o raio do circulo ? <input type="number" id="raio2"></label>
+            <input type="button" value="Calcular a Área" onclick="calcularArea()">
+        </form>
+    
+        <div id="resposta4">
+        </div>
+    </div>
+    
+    <div class=" Exercicio">
+            <h2> Temperatura máxima </h2>
+            <form>
+                <h3>Converter Celsius para Fahrenheit</h3>
+                <label>Qual a temperatura em Celsius? <input type="number" id="celsius"></label>
+                <input type="button" value="Converter para Fahrenheit" onclick="converterCelsiusFahrenheit()">
+            </form>
+        
+            <div id="resposta5">
+            </div>
+        
+            
+            <form>
+                <h3>Converter Fahrenheit para Celsius </h3>
+                <label>Qual a temperatura em Fahrenheit ? <input type="number" id="fahrenheit"></label>
+                <input type="button" value="Converter para Celsius" onclick="converterFahrenheitCelsius()">
+            </form>
+        
+            <div id="resposta6">
+            </div>
+    </div>
+
+
+    
+    <script src="/index.js">
+    </script>
+
+</body>
+</html>
